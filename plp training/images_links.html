@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Image Gallery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the world of technology with our featured image:</p>
+        <a href="https://www.technology-example.com" target="_blank">
+            <img src="tech image.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Immerse yourself in the beauty of nature with our gallery:</p>
+        <div class="image-grid">
+            <a href="https://www.wallpaperflare.com/search?wallpaper=nature+pictures" target="_blank">
+                <img src="Mountains-in-Kenya.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://kenyacradle.com/fourteen-falls/" target="_blank"></a>            
+                <img src="14 falls.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://commons.wikimedia.org/wiki/File:Zebra_Savannah.jpg" target="_blank">
+                <img src="zebra image.webp" alt="image of a zebra on the savannah grasslands in kenya">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Indulge in our delicious food offerings:</p>
+        <ul>
+            <li><a href="https://www.southernliving.com/recipes/supreme-pizza" target="_blank"><img src="pizza image.jpg" alt="Pizza Image"> Pizza</a></li>
+            <li><a href="https://www.freepik.com/free-photos-vectors/sushi" target="_blank"><img src="sushi image.jpg" alt="Sushi Image"> Sushi</a></li>
+            <li><a href="https://www.pexels.com/search/ice%20cream/" target="_blank"><img src="summer-dessert-sweet-ice-cream.jpg" alt="Ice Cream Image"> Ice Cream</a></li>
+        </ul>
+    </section>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
