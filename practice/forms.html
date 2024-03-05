@@ -1,0 +1,40 @@
+<!Doctype>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+
+    </head>
+    <body>
+        <form action="processing.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" value="John Doe">
+            <br>
+            <input type="checkbox" id="education" value="I am a Student">
+            <label for="student">I am a Student</label>
+            <br>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="female">female</label>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="mavewest6@gmail.com">
+            <br>
+            <label for="file" id="file">Upload file:</label>
+            <input type="file" id="file" name="file" accept=".pdf">
+            <br>
+            <label for="cars">select a car model:</label>
+            <select id="car" name="car">
+                <option value="AUDI">Audi</option>
+                <option value="TOYOTA">Toyota</option>
+                <option value="MARK X">Mark x</option>
+                <option value="TOYOTA SPORT">Toyota sport</option>
+            </select>
+            <br>
+            <textarea id="bio" name="bio" rows="12" cols="32">Type in your Bio:</textarea>
+            
+            <input type="submit" value="Save Detail">
+        </form>
+
+    </body>
+</html>
